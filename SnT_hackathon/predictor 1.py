@@ -138,34 +138,26 @@ def category_predictor(inp):
 # rev_ref_dict = {0:'UPSC',1:'Research',2:'Corporate'}
 # result = rev_ref_dict[prediction[0]]
 
-# print(result)
-def main():
-    
-    
-    #giving a title
-    st.title("Post your Doubts")
-    
-    
-    #getting the question from the user
-    name=st.text_input("Your Name")
-    Roll_no=st.text_input("Your IITK Roll No.")
-    question=st.text_input("Ask Your Question")
-    
-    
-    #code for prediction
-    category=''
-    
-    #creating a button for predicting the category
-    
-    if st.button('Question Category'):
-        category=category_predictor(question)
-        
-    st.success(category)
-    
-    
-    
-if __name__ == '__main__':
-    main()
+# print(result)    
+  #giving a title
+  st.title("Post your Doubts")
+
+
+  #getting the question from the user
+  name=st.text_input("Your Name")
+  Roll_no=st.text_input("Your IITK Roll No.")
+  question=st.text_input("Ask Your Question")
+
+
+  #code for prediction
+  category=''
+
+  #creating a button for predicting the category
+
+  if st.button('Question Category'):
+      category=category_predictor(question)
+
+  st.success(category)
     
 
 
