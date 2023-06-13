@@ -1,9 +1,9 @@
 # SnT_hackathon
 The SnT_hacathon folder contains 4 files:
-model.py
-predictor.py
-Vectorizer.py
-user_data.csv
+1) model 1.py
+2) predictor 1.py
+3) Vectorizer.py
+4) user_data.csv
 
 ## Here's a brief desription of how to open our model on a localhost:
 
